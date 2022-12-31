@@ -1,0 +1,110 @@
+.swiper-custom{
+  min-height: 60vh;
+  background-image: url('../media/common-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.page{
+  height: 50vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+/* !dimensioni swiper principale */
+.mySwiper2 {
+  height: 20%;
+  width: 100%;
+}
+
+/* !crea il box per le immagini inferiori */
+.mySwiper {
+  height: 10%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+@media screen and (min-height: 600px) {
+  .mySwiper2 {
+    height: 40vh;
+  }
+  .mySwiper{
+    height: 20%;
+  }
+}
+
+.swiper-pagination-bullet{
+  background-color: black;
+}
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .swiper {
+  width: 100%;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* ! opacità immagini swiper inferiore */
+/* .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+} */
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+

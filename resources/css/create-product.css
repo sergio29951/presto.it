@@ -1,0 +1,14 @@
+.form-custom{
+    background-image: url('../media/common-banner.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-preview{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

@@ -1,0 +1,78 @@
+.image-mosaic {
+    position: relative;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: (auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 140px;
+  }
+  
+  .card-mosaic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+.img-Motori{
+    background-image: url("../media/motori.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-informatica{
+    background-image: url("../media/PC.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-elettrodomestici{
+    background-image: url("../media/elettrodomestici.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-sport{
+    background-image: url("../media/fitness.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.effect-card:hover{
+    opacity: 0.9;
+    transition: 0.4s;
+    transform: scale(1, 0.9);
+  }
+  
+  @media screen and (min-width: 600px) {
+    .card-tall {
+      grid-row: span 2 / auto;
+    }
+  
+    .card-wide {
+      grid-column: span 2 / auto;
+    }
+    
+  }

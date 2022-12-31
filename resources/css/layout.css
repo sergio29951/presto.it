@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap%27');
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+*{
+  font-family: 'MuseoModerno', cursive;
+  font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: var(--primary-color); 
+}
+
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

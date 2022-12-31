@@ -1,0 +1,18 @@
+.musthead-custom{
+  background-image: url('../media/banner-bg.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.titel-custom {
+  background-color: black;
+  background-image:linear-gradient(to right, #d8363a,#ee7724, #ffa901);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}

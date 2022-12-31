@@ -1,0 +1,11 @@
+.swipeCustom{
+  color: rgb(255, 126, 0) !important;
+}
+
+@media screen and (max-width: 400px) {
+  .swipeCustom{
+    display: none;
+  }
+}
+
+  
